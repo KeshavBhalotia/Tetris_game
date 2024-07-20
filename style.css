@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    background-image: url("img3.jpg");
+    /* background-repeat: no-repeat; */
+  background-attachment: fixed;
+  background-position: center center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: whitesmoke;
+}
+
+#tetris{
+    background-color: white;
+    box-shadow: 0 0 10px 2px lightgrey;
+}
+h2{
+    margin-bottom: 3px;
+}
